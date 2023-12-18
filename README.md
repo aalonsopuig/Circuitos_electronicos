@@ -20,6 +20,6 @@ Circuitos electrónicos con LTSpice, Falstad y otros simuladores y EDA<br><br>
 - V(a,b) que es el voltaje de R1 está en fase, <br>
 - V(b,c) que es el voltaje de L1 se adelanta 90 grados y <br>
 - V(c), que es el voltaje de C1 se atrasa 90 grados.
-<br>
+
 ![image](https://github.com/aalonsopuig/LTSpice_Circuitos/assets/57196844/15cd5a1b-963c-4252-a2b2-0031f767f1cf)
 <br>
