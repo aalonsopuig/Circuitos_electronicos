@@ -1,0 +1,12 @@
+* C:\Users\aalon\OneDrive\Documents\_Repositorio\LTSpice_Circuitos\Carga bobina.asc
+R1 N001 N002 100
+V1 N001 0 PULSE(0 15 0 1n 1n 10m 20m 1)
+L1 RLLine 0 150mH Ipk=2 Rser=0 Rpar=0 Cpar=0
+R2 RLLine 0 1k
+D3 N002 RLLine D
+.model D D
+.lib C:\Users\aalon\AppData\Local\LTspice\lib\cmp\standard.dio
+.ic V(RLLine)=0
+.tran .01 .02
+.backanno
+.end

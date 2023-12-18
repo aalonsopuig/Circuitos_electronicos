@@ -1,0 +1,8 @@
+* C:\Users\aalon\OneDrive\Documents\_Repositorio\LTSpice_Circuitos\Carga condensador.asc
+C1 RCLine 0 10µ
+R1 N001 RCLine 10k
+V1 N001 0 PULSE(0 15 0 1n 1n 0.5 1 2)
+.ic V(RCLine)=0
+.tran .1 1
+.backanno
+.end

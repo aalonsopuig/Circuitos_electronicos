@@ -1,0 +1,7 @@
+* C:\Users\aalon\OneDrive\Documents\_Repositorio\LTSpice_Circuitos\Bobina en AC.asc
+R1 N001 N002 1k
+V1 N001 0 AC 1.
+L1 N002 0 100mH
+.ac oct 100 1 10k
+.backanno
+.end

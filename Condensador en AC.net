@@ -1,0 +1,7 @@
+* C:\Users\aalon\OneDrive\Documents\_Repositorio\LTSpice_Circuitos\Condensador en AC.asc
+C1 N002 0 100n
+R1 N002 N001 10k
+V1 N001 0 AC 1.
+.ac oct 100 1 10k
+.backanno
+.end
