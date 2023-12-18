@@ -1,0 +1,11 @@
+version 2
+1
+9
+.tran 0.1 10{return}{return}{return}.kicad adjustpaths{return}.save all{return}.probe alli
+2
+2
+I(R1)
+ 
+1
+V(/RCline)
+ 
