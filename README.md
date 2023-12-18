@@ -1,10 +1,10 @@
 # Circuitos_electronicos
-Circuitos electrónicos con LTSpice, Falstad y otros simuladores y EDA<br><br>
+Circuitos electrónicos con LTSpice, Falstad, Kicad y otros simuladores y EDA<br><br>
  
-**Carga condensador**: [LTSpice] Simulación de carga y descarga de un condensador, con simulación de voltaje y corriente<br><br>
+**Carga condensador**: [LTSpice] [Kicad] Simulación de carga y descarga de un condensador, con simulación de voltaje y corriente<br><br>
 ![image](https://github.com/aalonsopuig/LTSpice_Circuitos/assets/57196844/c52100f1-2a7b-4efb-939e-0836342b2530)
 <br><br>
-**Condensador en AC**: [LTSpice] Simulación de comportamiento de condensador con señal AC en frecuencia, mostrando el efecto de filtro de paso bajo en amplitud y el desfase en función de la frecuencia, mostrándose que el desfase entre corriente y voltaje es siempre de 90 grados (circuito ideal), pero el desfase entre la señal antes y después del condensador tiene un desfase variable en función de la frecuencia.<br><br>
+**Condensador en AC**: [LTSpice] [Kicad] Simulación de comportamiento de condensador con señal AC en frecuencia, mostrando el efecto de filtro de paso bajo en amplitud y el desfase en función de la frecuencia, mostrándose que el desfase entre corriente y voltaje es siempre de 90 grados (circuito ideal), pero el desfase entre la señal antes y después del condensador tiene un desfase variable en función de la frecuencia.<br><br>
 ![image](https://github.com/aalonsopuig/LTSpice_Circuitos/assets/57196844/c2e3f34d-ab4a-4dcc-a87b-13c90b5c961f)
 <br><br>
 **Carga bobina**: [LTSpice] Simulación de carga y descarga de un inductor, con simulación de voltaje y corriente<br><br>
