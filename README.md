@@ -17,5 +17,8 @@ Circuitos electrónicos con LTSpice simulator
 **Divisor de tensión con potenciómetro**: Utilizando librería de potenciómetro importada en LTSpice, se realiza un wip automático (cambio del valor del dial) del potenciómetro para mostrar cómo la tensión a su salida va variando con el cambio de la posición del dial del potenciómetro.
 ![image](https://github.com/aalonsopuig/LTSpice_Circuitos/assets/57196844/08e298e9-af9d-4b19-8c72-03388f9b1056)
 
-**RLC**: Muestra el desfase en voltaje de un circuito serie RLC ante una tensión alterna. R está en fase, L se adelanta 90 grados y C se atrasa 90 grados.
+**RLC**: Muestra el desfase en voltaje de un circuito serie RLC ante una tensión alterna. <br>
+V(a,b) que es el voltaje de R1 está en fase, <br>
+V(b,c) que es el voltaje de L1 se adelanta 90 grados y <br>
+V(c), que es el voltaje de C1 se atrasa 90 grados.
 ![image](https://github.com/aalonsopuig/LTSpice_Circuitos/assets/57196844/15cd5a1b-963c-4252-a2b2-0031f767f1cf)
