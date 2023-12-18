@@ -1,0 +1,64 @@
+A Collection Of Standard Potentiometers              Helmut Sennewald,  V1.1
+ 
+A new symbol "potentiometer_standard.asy" has been generated for all the new potentiometers.
+Put this file into the LTSPICE installation path lib\sym \... or into your working directory.
+The file "potentiometer_standard.lib" contains the X-subcircuits of all the potentiometers.
+There is a linear, log. and an arbitrary model. I have included the old model too.
+Put the file "potentiometer_standard.lib" into the folder 
+...\Progams\Ltc\SwCADIII\lib\sub
+or into the directory where your schematic "potentiometer_standard_test.asc" is. 
+ 
+potentiometer :  equivalent function to pot_lin, just the old symbol and model
+pot_lin : ideal linear resistance dependency
+pot_pow : ideal power function resistance dependency
+pot_plog : ideal positive logarithm function resistance dependency
+pot_nlog : ideal negative logarithm function resistance dependency
+potr_tab: arbitrary(table) based resistance dependency
+pot_piher_plog : pseudo logarithm function resistance dependency, Piher
+pot_radiohm_plog : measured pseudo logarithm fucntion resistance dependency, Radiohm
+
+LTSPICE have to be restarted before the new symbol can be used.
+
+The pot_pow, pot_plog and pot_nlog  potentiometers need an additional reference value.
+This reference value pair specifies the slope of the ratio.
+Rtap: resistance at the refrence point
+Tap: position of the wiper at resistance Rtap
+
+How to select the model?
+Move the cursor over the potentiometer then click the right mouse button. 
+Then the the model name and the parameters can be changed. 
+The model file has to be loaded with a  .include potentiometer_standard.lib 
+statement to the schematic.
+
+
+* A Collection of Potentiometers
+* ==============================
+* Helmut Sennewald,                          12/23/2003         V1.1
+*
+*    Models:
+*       potentiometer    old style LTSPICE potentiometer
+*       pot_lin          k*x
+*       pot_pow          x^k
+*       pot_plog         exp(k*(1-x))
+*       pot_nlog         exp(kx)
+*       pot_tab          table(x)
+*       pot_piher_plog   piecewise linear, datasheet
+*       pot_radiohm_plog piecewise linear, measured
+*    
+*
+*       1 ____    1.0=wiper   
+*             |  
+*            | |  3
+*            | |<---- wiper 0..1
+*            | |
+*       Rtap | |  Tap 
+*            | |
+*       2 ____|   0.0=wiper
+*
+* 
+*     RTOT = total resistance
+*     WIPER = ratio of travel of the wiper
+*     RTAP = reference resistance at wiper=Tap
+*            It is needed only for pot_plog, pot_nlog and pot_pow.
+*            RTAP is measured between pin-2 and wiper.
+*     TAP = ratio of travel when Rtap is reached
