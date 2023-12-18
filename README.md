@@ -13,3 +13,6 @@ Circuitos electrónicos con LTSpice simulator
 
 **Bobina en AC**: Simulación de comportamiento de inductor con señal AC en frecuencia, mostrando el efecto de filtro de paso alto en amplitud y el desfase en función de la frecuencia, mostrándose que el desfase entre corriente y voltaje es siempre de 90 grados (circuito ideal), pero el desfase entre la señal antes y después del inductor tiene un desfase variable en función de la frecuencia.
 ![image](https://github.com/aalonsopuig/LTSpice_Circuitos/assets/57196844/4df828a1-63a2-4966-9d85-79c8d6570cf3)
+
+**Divisor de tensión con potenciómetro**: Utilizando librería de potenciómetro importada en LTSpice, se realiza un wip automático (cambio del valor del dial) del potenciómetro para mostrar cómo la tensión a su salida va variando con el cambio de la posición del dial del potenciómetro.
+![image](https://github.com/aalonsopuig/LTSpice_Circuitos/assets/57196844/08e298e9-af9d-4b19-8c72-03388f9b1056)
