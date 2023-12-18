@@ -1,0 +1,8 @@
+* C:\Users\aalon\OneDrive\Documents\_Repositorio\LTSpice_Circuitos\Divisor de tensión con potenciómetro.asc
+XU1 N001 0 VOUT pot_lin Rtot=10K wiper={wip} Rtap=1k tap=0.5
+V1 N001 0 5v
+.INCLUDE potentiometer_standard.lib
+.STEP LIN PARAM wip  0  1.0  0.01
+.OP
+.backanno
+.end
