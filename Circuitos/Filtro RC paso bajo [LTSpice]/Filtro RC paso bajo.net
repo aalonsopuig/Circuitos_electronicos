@@ -1,0 +1,7 @@
+* C:\Users\aalon\OneDrive\Documents\_Repositorio\Circuitos_electronicos\Circuitos\Filtro RC paso bajo [LTSpice]\Filtro RC paso bajo.asc
+R1 Vout Vin 10K
+C1 Vout 0 1nF
+V1 Vin 0 SINE(0 1) AC 1
+.ac dec 100 1 20K
+.backanno
+.end
