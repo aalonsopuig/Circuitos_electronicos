@@ -1,0 +1,11 @@
+* C:\Users\aalon\OneDrive\Documents\_Repositorio\Circuitos_electronicos\Circuitos\Filtro RC paso banda.asc
+R1 Vout N001 200
+C1 Vout 0 1nF
+V1 Vin 0 SINE(0 1.5) AC 1
+C2 N001 Vin 1nF
+R2 N001 0 16k
+.ac dec 100 1 1000Meg
+* Paso alto
+* Paso bajo
+.backanno
+.end
