@@ -1,0 +1,11 @@
+* C:\Users\aalon\OneDrive\Documents\_Repositorio\Circuitos_electronicos\Circuitos\Filtro Sallen Key [LTSpice]\Filtro Sallen Key.asc
+XU1 N002 Salida NC_01 NC_02 Salida level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+R1 N002 0 10k
+R2 Salida N001 10k
+C1 N002 N001 220nF
+C2 N001 Entrada 220nF
+V1 Entrada 0 SINE(0 1) AC 1
+.ac dec 100 1 10k
+.lib UniversalOpAmp1.lib
+.backanno
+.end
