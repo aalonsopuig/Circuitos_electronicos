@@ -1,17 +1,20 @@
 version 2
 1
 1
-.ac dec 10 1 10k{return}.kicad adjustpaths{return}.save all{return}.probe alli
-4
-6
-I(C1)
- 
-10
-I(C1)
- 
+.ac dec 10 1 10k{return}{return}.kicad adjustpaths{return}.save all{return}.probe alli
+5
 5
 V(/RCline)
  
 9
 V(/RCline)
+ 
+5
+V(/RCline)
+ 
+5
+V(Net-_C1-Pad1_)
+ 
+5
+V(Net-_C1-Pad1_)
  
