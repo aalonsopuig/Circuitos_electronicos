@@ -287,7 +287,7 @@
     (property "Sim.Pins" "1=+ 2=-" (at 120.65 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Params" "dc=0 ampl=1 f=1k ac=1" (at 124.46 93.8502 0)
+    (property "Sim.Params" "dc=0 ampl=1 f=1k td=0 theta=0 phase=0 ac=1" (at 124.46 93.8502 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Sim.Type" "SIN" (at 120.65 91.44 0)
