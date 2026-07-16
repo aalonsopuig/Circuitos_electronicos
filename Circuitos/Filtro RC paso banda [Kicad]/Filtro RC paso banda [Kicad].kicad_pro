@@ -281,7 +281,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Condensador AC.kicad_pro",
+    "filename": "Filtro RC paso banda [Kicad].kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -439,8 +439,8 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
-      "workbook_filename": "Condensador AC.wbk"
+      "model_mode": 4,
+      "workbook_filename": "Filtro RC paso banda [Kicad].wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -456,18 +456,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Condensador AC.kicad_sch",
-        "name": "Condensador AC",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "filename": "Filtro RC paso banda [Kicad].kicad_sch",
+        "name": "Filtro RC paso banda [Kicad]",
+        "uuid": "7e973ca0-a965-4a5b-b309-2418d7b47edb"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#GND1,R2-3,C2",
     "variants": []
   },
   "sheets": [
     [
       "7e973ca0-a965-4a5b-b309-2418d7b47edb",
-      "Root"
+      "Filtro RC paso banda [Kicad]"
     ]
   ],
   "text_variables": {},
