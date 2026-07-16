@@ -22,11 +22,6 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(12, 15, 153)",
-          "signal": "V(/RCline) (fase)",
-          "trace_type": 5
-        },
-        {
           "color": "rgb(19, 153, 36)",
           "signal": "V(/RCline) (ganancia)",
           "trace_type": 9

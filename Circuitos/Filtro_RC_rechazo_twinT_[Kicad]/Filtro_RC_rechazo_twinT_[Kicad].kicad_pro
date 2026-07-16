@@ -281,7 +281,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Condensador AC.kicad_pro",
+    "filename": "Filtro_RC_rechazo_twinT_[Kicad].kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -439,8 +439,8 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
-      "workbook_filename": "Condensador AC.wbk"
+      "model_mode": 4,
+      "workbook_filename": "Filtro_RC_rechazo_twinT_[Kicad].wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -456,18 +456,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Condensador AC.kicad_sch",
-        "name": "Condensador AC",
+        "filename": "Filtro_RC_rechazo_twinT_[Kicad].kicad_sch",
+        "name": "Filtro_RC_rechazo_twinT_[Kicad]",
         "uuid": "7e973ca0-a965-4a5b-b309-2418d7b47edb"
       }
     ],
-    "used_designators": "C1-3,R1-3",
+    "used_designators": "R1-3,#GND1,C1-3",
     "variants": []
   },
   "sheets": [
     [
       "7e973ca0-a965-4a5b-b309-2418d7b47edb",
-      "Condensador AC"
+      "Filtro_RC_rechazo_twinT_[Kicad]"
     ]
   ],
   "text_variables": {},

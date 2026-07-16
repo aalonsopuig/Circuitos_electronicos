@@ -461,7 +461,7 @@
         "uuid": "7e973ca0-a965-4a5b-b309-2418d7b47edb"
       }
     ],
-    "used_designators": "#GND1,R2-3,C2",
+    "used_designators": "R1-3,#GND1,C1-2",
     "variants": []
   },
   "sheets": [

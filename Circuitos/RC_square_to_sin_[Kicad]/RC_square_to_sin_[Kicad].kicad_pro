@@ -281,7 +281,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Condensador AC.kicad_pro",
+    "filename": "RC_square_to_sin_[Kicad].kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -440,7 +440,7 @@
         "version": 0
       },
       "model_mode": 0,
-      "workbook_filename": "Condensador AC.wbk"
+      "workbook_filename": "RC_square_to_sin_[Kicad].wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -456,9 +456,9 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Condensador AC.kicad_sch",
-        "name": "Condensador AC",
-        "uuid": "7e973ca0-a965-4a5b-b309-2418d7b47edb"
+        "filename": "RC_square_to_sin_[Kicad].kicad_sch",
+        "name": "RC_square_to_sin_[Kicad]",
+        "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],
     "used_designators": "C1-3,R1-3",
@@ -467,7 +467,7 @@
   "sheets": [
     [
       "7e973ca0-a965-4a5b-b309-2418d7b47edb",
-      "Condensador AC"
+      "Root"
     ]
   ],
   "text_variables": {},

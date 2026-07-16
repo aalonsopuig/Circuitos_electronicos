@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "7e973ca0-a965-4a5b-b309-2418d7b47edb")
 	(paper "A4")
 	(lib_symbols
@@ -15,8 +15,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -26,6 +30,8 @@
 			)
 			(property "Value" "C"
 				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -35,47 +41,57 @@
 			)
 			(property "Footprint" ""
 				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "C_0_1"
@@ -108,7 +124,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -126,7 +142,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -154,8 +170,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -164,6 +184,8 @@
 			)
 			(property "Value" "R"
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -172,47 +194,57 @@
 			)
 			(property "Footprint" ""
 				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_0_1"
@@ -232,7 +264,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -250,7 +282,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -269,24 +301,30 @@
 			(embedded_fonts no)
 		)
 		(symbol "Simulation_SPICE:0"
-			(power)
+			(power global)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#GND"
 				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "0"
 				(at 0 -1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -295,38 +333,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "0V reference potential for simulation"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "simulation"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "0_0_1"
@@ -376,8 +422,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "V"
 				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -387,6 +437,8 @@
 			)
 			(property "Value" "VSIN"
 				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -396,42 +448,52 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Voltage source, sinusoidal"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Sim.Pins" "1=+ 2=-"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Sim.Params" "dc=0 ampl=1 f=1k ac=1"
 				(at 2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -441,30 +503,36 @@
 			)
 			(property "Sim.Type" "SIN"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Sim.Device" "V"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "simulation ac vac"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "VSIN_0_0"
@@ -518,7 +586,7 @@
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -536,7 +604,7 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -557,7 +625,7 @@
 	)
 	(text "Ground"
 		(exclude_from_sim no)
-		(at 171.45 101.6 0)
+		(at 209.55 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -568,7 +636,7 @@
 	)
 	(text "Vout"
 		(exclude_from_sim no)
-		(at 171.45 82.55 0)
+		(at 209.55 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -588,38 +656,61 @@
 		)
 		(uuid "6fcaca76-49b3-40e0-a042-81464f79ecc4")
 	)
-	(text ".ic V(/RCline)=0"
-		(exclude_from_sim no)
-		(at 154.94 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a68a2bc3-c0af-43d4-bfd3-7540adecb9d8")
-	)
 	(junction
-		(at 120.65 100.33)
+		(at 149.86 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6c8d446f-c281-4a41-aecb-f93211cd6728")
+		(uuid "3c406682-0e82-4661-84da-beee75805c13")
 	)
 	(junction
-		(at 154.94 81.28)
+		(at 149.86 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ae57dae-42eb-450c-b813-5d79e30ce89d")
+	)
+	(junction
+		(at 193.04 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88816a02-2772-4349-b7e5-027587007a5d")
 	)
 	(junction
-		(at 154.94 100.33)
+		(at 171.45 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7107f44-8e1a-4dd7-8284-4b593de547f7")
+	)
+	(junction
+		(at 120.65 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7a466ae-345b-4874-a1ee-d2bbb5b87aa8")
+	)
+	(junction
+		(at 193.04 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4c87764-47f6-4f85-a5d3-7e7e05a4e9f2")
 	)
+	(junction
+		(at 171.45 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0651008-e039-43af-9cb6-7a4dc07e63b5")
+	)
 	(wire
 		(pts
-			(xy 154.94 81.28) (xy 170.18 81.28)
+			(xy 171.45 81.28) (xy 171.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2beda1-d0e1-44be-9ba7-e07cab0f994d")
+	)
+	(wire
+		(pts
+			(xy 193.04 81.28) (xy 208.28 81.28)
 		)
 		(stroke
 			(width 0)
@@ -629,7 +720,27 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 100.33) (xy 170.18 100.33)
+			(xy 171.45 93.98) (xy 171.45 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c401c7-5333-4513-a72e-b9d55828cf73")
+	)
+	(wire
+		(pts
+			(xy 163.83 81.28) (xy 171.45 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c9b59f5-5d5b-4950-8e9f-3e578f1e64d6")
+	)
+	(wire
+		(pts
+			(xy 193.04 100.33) (xy 208.28 100.33)
 		)
 		(stroke
 			(width 0)
@@ -639,7 +750,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 93.98) (xy 154.94 100.33)
+			(xy 193.04 93.98) (xy 193.04 100.33)
 		)
 		(stroke
 			(width 0)
@@ -649,13 +760,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 100.33) (xy 120.65 100.33)
+			(xy 184.15 81.28) (xy 193.04 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4160f591-6a20-4e32-8f4b-72de0cb7bf7f")
+		(uuid "3ace838d-d60b-4092-a114-4f517b19ba19")
 	)
 	(wire
 		(pts
@@ -669,23 +780,53 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 81.28) (xy 154.94 81.28)
+			(xy 171.45 100.33) (xy 193.04 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5694757c-41e0-48c9-b60d-9fea89a906e5")
+		(uuid "7078f73c-34a7-47cc-956e-d169e9d5e778")
 	)
 	(wire
 		(pts
-			(xy 154.94 81.28) (xy 154.94 86.36)
+			(xy 193.04 81.28) (xy 193.04 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "81c6ff1c-a641-419c-bd42-671c434a22c1")
+	)
+	(wire
+		(pts
+			(xy 149.86 100.33) (xy 171.45 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8469ca99-6b99-4642-8349-826ebbcb237f")
+	)
+	(wire
+		(pts
+			(xy 149.86 81.28) (xy 156.21 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0dc7000-0545-4419-b0a6-3a1f7a6341b4")
+	)
+	(wire
+		(pts
+			(xy 171.45 81.28) (xy 176.53 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1fd712e-f6f8-4688-94c8-3c54fd79443b")
 	)
 	(wire
 		(pts
@@ -699,6 +840,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 81.28) (xy 149.86 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58ed46b-45be-425e-b1ab-fb9c935bea6c")
+	)
+	(wire
+		(pts
 			(xy 120.65 100.33) (xy 120.65 105.41)
 		)
 		(stroke
@@ -706,6 +857,26 @@
 			(type default)
 		)
 		(uuid "cf55f6da-2ab8-493a-acf3-2256a5e9b4fe")
+	)
+	(wire
+		(pts
+			(xy 142.24 81.28) (xy 149.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a5bd0b-a241-4f76-8347-ec7a40dfaf7d")
+	)
+	(wire
+		(pts
+			(xy 149.86 93.98) (xy 149.86 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1664d2c-a565-4f3c-9f5e-a8ed6b5694d2")
 	)
 	(wire
 		(pts
@@ -717,8 +888,18 @@
 		)
 		(uuid "f7aff9ba-91e7-405c-b628-f47b21d5bbff")
 	)
+	(wire
+		(pts
+			(xy 120.65 100.33) (xy 149.86 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad6480b-5316-4ae0-986c-83b29187bc5b")
+	)
 	(label "RCline"
-		(at 154.94 81.28 0)
+		(at 193.04 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -731,14 +912,17 @@
 		(lib_id "Simulation_SPICE:VSIN")
 		(at 120.65 91.44 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "09cb442b-ced6-40d8-8648-86338c59dd6f")
 		(property "Reference" "V1"
 			(at 124.46 88.7701 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -748,6 +932,8 @@
 		)
 		(property "Value" "VSIN"
 			(at 124.46 91.3101 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -757,24 +943,30 @@
 		)
 		(property "Footprint" ""
 			(at 120.65 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 120.65 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 120.65 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -783,15 +975,19 @@
 		)
 		(property "Sim.Pins" "1=+ 2=-"
 			(at 120.65 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Params" "dc=0 ampl=1 f=1k td=0 theta=0 phase=0 ac=1"
-			(at 124.46 93.8501 0)
+			(at 123.952 102.362 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -801,21 +997,25 @@
 		)
 		(property "Sim.Type" "SIN"
 			(at 120.65 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "V"
 			(at 120.65 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -825,7 +1025,7 @@
 			(uuid "c8a1c603-6828-4316-a610-afe6036c19f7")
 		)
 		(instances
-			(project "RC_square_to_sin_[Kicad]"
+			(project "Condensador AC"
 				(path "/7e973ca0-a965-4a5b-b309-2418d7b47edb"
 					(reference "V1")
 					(unit 1)
@@ -834,53 +1034,65 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 154.94 90.17 0)
+		(lib_id "Device:C")
+		(at 171.45 90.17 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0a03b06d-3b4a-407d-ba8b-e6413703ed1f")
-		(property "Reference" "R1"
-			(at 157.48 88.8999 0)
+		(uuid "15792fc0-f892-4e09-b10e-09d2c5a2c937")
+		(property "Reference" "C2"
+			(at 175.26 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 157.48 91.4399 0)
+		(property "Value" "10n"
+			(at 175.26 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 153.162 90.17 90)
+			(at 170.4848 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 154.94 90.17 0)
+		(property "Datasheet" ""
+			(at 171.45 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 154.94 90.17 0)
+			(at 171.45 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -888,27 +1100,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b285be85-3933-4f5a-af37-229a024e0bb7")
+			(uuid "d5d4d8d5-50f6-47a8-a8eb-fd170318f852")
 		)
 		(pin "1"
-			(uuid "a7510b43-bbf9-45fd-88fb-ded9d23f1d02")
+			(uuid "4aaf0511-e77b-49fd-ba41-51ec2bc35bd8")
 		)
 		(instances
-			(project "RC_square_to_sin_[Kicad]"
+			(project "Condensador AC"
 				(path "/7e973ca0-a965-4a5b-b309-2418d7b47edb"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-			(project "Radio_1920"
-				(path "/bac7193f-7456-4028-8662-c026acd3ae4e"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-			(project "Carga condensador"
-				(path "/be4088d1-1f89-4bc2-a05e-f544ac528fd4"
-					(reference "R1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -916,50 +1116,64 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 138.43 81.28 90)
+		(at 149.86 90.17 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5948ca7c-c986-4e4a-af5e-045f03029391")
+		(uuid "32956af2-8da0-4718-833b-49debc840279")
 		(property "Reference" "C1"
-			(at 138.43 73.66 90)
+			(at 153.67 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "10uF"
-			(at 138.43 76.2 90)
+		(property "Value" "10n"
+			(at 153.67 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 80.3148 0)
+			(at 148.8948 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 138.43 81.28 0)
+		(property "Datasheet" ""
+			(at 149.86 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 138.43 81.28 0)
+			(at 149.86 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -967,27 +1181,94 @@
 			)
 		)
 		(pin "2"
-			(uuid "032248a1-b966-433b-b568-90b7c5f6c5df")
+			(uuid "d124c0f9-7ec5-4436-8024-bcb1a0a3ffb5")
 		)
 		(pin "1"
-			(uuid "1025f94d-f014-474d-94fb-737df1e6c6db")
+			(uuid "7f7a7d1c-975e-4b09-b30a-a138295bac5a")
 		)
 		(instances
-			(project "RC_square_to_sin_[Kicad]"
+			(project "Condensador AC"
 				(path "/7e973ca0-a965-4a5b-b309-2418d7b47edb"
 					(reference "C1")
 					(unit 1)
 				)
 			)
-			(project "Radio_1920"
-				(path "/bac7193f-7456-4028-8662-c026acd3ae4e"
-					(reference "C1")
-					(unit 1)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.02 81.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39a5d002-78fb-49d3-9881-1126e11021bc")
+		(property "Reference" "R2"
+			(at 160.02 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
-			(project "Carga condensador"
-				(path "/be4088d1-1f89-4bc2-a05e-f544ac528fd4"
-					(reference "C1")
+		)
+		(property "Value" "1.5k"
+			(at 160.02 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 83.058 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9a8042f6-e979-436a-88aa-7962e8debf8c")
+		)
+		(pin "1"
+			(uuid "f6f73def-b834-4aca-a299-60556baf7e6c")
+		)
+		(instances
+			(project "Condensador AC"
+				(path "/7e973ca0-a965-4a5b-b309-2418d7b47edb"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -997,23 +1278,29 @@
 		(lib_id "Simulation_SPICE:0")
 		(at 120.65 105.41 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c6e4dd8-b973-4d0b-9d2f-3fd8a6e373f9")
 		(property "Reference" "#GND01"
 			(at 120.65 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "0"
 			(at 120.65 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1022,24 +1309,30 @@
 		)
 		(property "Footprint" ""
 			(at 120.65 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 120.65 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 120.65 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,7 +1343,7 @@
 			(uuid "b0def401-8e12-45e4-869c-10bb9ba7b5ca")
 		)
 		(instances
-			(project "RC_square_to_sin_[Kicad]"
+			(project "Condensador AC"
 				(path "/7e973ca0-a965-4a5b-b309-2418d7b47edb"
 					(reference "#GND01")
 					(unit 1)
@@ -1065,6 +1358,245 @@
 			(project "Carga condensador"
 				(path "/be4088d1-1f89-4bc2-a05e-f544ac528fd4"
 					(reference "#GND01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 180.34 81.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d4b9d00-07f9-4958-a9dc-b741414789b6")
+		(property "Reference" "R3"
+			(at 180.34 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 180.34 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 83.058 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9a541085-bc03-44a9-bc58-0b1d815c92e6")
+		)
+		(pin "1"
+			(uuid "519e1746-f555-4818-a7d8-2799a1a86b3a")
+		)
+		(instances
+			(project "Condensador AC"
+				(path "/7e973ca0-a965-4a5b-b309-2418d7b47edb"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 138.43 81.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aefafaa2-996f-42b4-a5c5-f708dc10d4b7")
+		(property "Reference" "R1"
+			(at 138.43 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 138.43 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 83.058 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "49d5da29-dd02-4864-bf5a-5e85f956609c")
+		)
+		(pin "1"
+			(uuid "12881932-2b1a-4fe4-9371-dbf664b2c336")
+		)
+		(instances
+			(project "Condensador AC"
+				(path "/7e973ca0-a965-4a5b-b309-2418d7b47edb"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 193.04 90.17 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6d75726-1ca1-4bbd-a4fb-7990e478f2de")
+		(property "Reference" "C3"
+			(at 196.85 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10n"
+			(at 196.85 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 192.0748 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3d6ec3a5-64cd-4802-a364-0e1d7e7e44b7")
+		)
+		(pin "1"
+			(uuid "6b7ff4b7-bcf9-4632-85cb-a45ab450909c")
+		)
+		(instances
+			(project "Condensador AC"
+				(path "/7e973ca0-a965-4a5b-b309-2418d7b47edb"
+					(reference "C3")
 					(unit 1)
 				)
 			)
